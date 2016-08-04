@@ -1,39 +1,294 @@
-<HTML>
+ <!-- <script src="topPicture.js"></script> -->
+<!DOCTYPE HTML>
+
+<html lang="en">
 	<head>
-		<script src="topPicture.js"></script>
-		<link rel="stylesheet" type="text/css" href="topPicture.css">
-		<link rel="stylesheet" type="text/css" href="tabs.css">
-		<script src="https://fb.me/react-0.14.8.js"></script>
-		<script src="https://fb.me/react-dom-0.14.8.js"></script>
+	  <title>UCGA Homepage</title>
+	  <meta charset="utf-8">
+	  <meta name="viewport" content="width=device-width, initial-scale=1">
+	  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+	  <link href='http://fonts.googleapis.com/css?family=Droid+Serif|Open+Sans:400,700' rel='stylesheet' type='text/css'>
+	  <!-- <link rel="stylesheet" href="https://s3-us-west-2.amazonaws.com/s.cdpn.io/148866/reset.css"> -->
+	  <link href="styles.css" rel="stylesheet"/>
+	  <link href="tl.css" rel="stylesheet"/>
 	</head>
 	<body>
-		<img class="topPicture" src="TopPicture.jpg">
-		</img>
-		<div class="tabs">
-			<ul class="tab-links">
-				<li class="active"><a href="#tab1">About me</a></li>
-				<li><a href="#tab2">Tab 2</a></li>
-				<li><a href="#tab3">Tab 3</a></li>
-				<li><a href="#tab4">Tab 4</a></li>
-			</ul>
-			
-			<div class="tab-content">
-				<div id="tab1" class="tab active">
-					<p> TAB ONE SHIT </p>
+		 <nav class='navbar navbar-default navbar-fixed-top'>
+			<div class='container'>
+				<div class='navbar-header'>
+					<button type='button' class='navbar-toggle collapsed' data-toggle='collapse' data-target='#navbar-data' aria-expanded='false'>
+						<span class='sr-only'>Toggle Navigation</span>
+						<span class='icon-bar'></span>
+						<span class='icon-bar'></span>
+						<span class='icon-bar'></span>
+					</button>
+					<a class='navbar-brand' href='#'>BRAND ME!</a>
 				</div>
-				
-				<div id="tab2" class="tab">
-					<p> Tab 2 shit </p>
+				<div class='collapse navbar-collapse'  id='navbar-data'>
+					<ul class='nav navbar-nav'>
+						<li><a href='#about'>About</a></li>
+						<li><a href='#education'>Education</a></li>
+						<li><a href='#skills'>Skills</a></li>
+						<li><a href='#projects'>Projects</a></li>
+						<li><a href='#projects'>Experience</a></li>
+						<li><a href='#contact'>Contact</a></li>
+					</ul>
 				</div>
-				
-				<div id="tab3" class="tab">
-					<p> tab 3 </p>
+			</div>
+		</nav> 
+		<img id="topPicture" src="img/seattle.jpg"></img>
+		<div class="container">
+			<div class="sections" id="content">
+				<div class="row">
+					<section id="about" class="section section-about">
+						<div class="about-section">
+							<div class="profile">
+								<div class="col-sm-12">
+									<div class="row">
+										<div class="col-sm-5 col-xs-12">
+											<div class="profile-pic">
+												<img id="shanesmith" src="img/bestpic.jpg" alt="Shane Smith"></img>
+											</div>
+										</div>
+										<div class="col-sm-7">
+											<div class="row">
+												<div class="col-xs-12 profile-info">
+												</br>
+													<h1 class="profile-title">
+														<span>I'm Shane Smith</span>
+													</h1>
+													<h3 class="profile-name">
+														<span>Boy wonder!</span>
+													</h3>
+												</div>
+												<ul class="col-xs-12 profile-list">
+													<li class="clearfix">
+														<strong class="title">Age</strong>
+														<span class="title-content">21</span>
+													</li>
+													<li class="clearfix">
+														<strong class="title">Current Work</strong>
+														<span class="title-content">Data Science/Web Developer Co-op At Lexis Nexis Special Services Inc.</span>
+													</li>
+													<li class="clearfix">
+														<strong class="title">School</strong>
+														<span class="title-content">University of Cincinnati</span>
+													</li>
+													<li class="clearfix">
+														<strong class="title">Degree</strong>
+														<span class="title-content">Pursuing BS in Computer Science</span>
+													</li>
+													<li class="clearfix">
+														<strong class="title">Email</strong>
+														<span class="title-content">Shane.L.Smith24@gmail.com</span>
+													</li>
+												</ul>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-xs-6 profile-social">
+									<ul class="social-links">
+										<li>
+											<a class="linkdin" href="https://www.linkedin.com/in/Shane-Smith-L">
+												<img class="icon linkedin" src="img/linkedin.png" ></img>
+											</a>
+										</li>
+										<li>
+											<a class="github" href="https://www.github.com/shane424">
+												<img class="icon github" src="img/github.png" ></img>
+											</a>
+										</li>
+									</ul>
+								</div>
+								<div class="col-xs-6 profile-text">
+									<p>This is the location of text for my profile</p>
+								</div>
+							</div>
+							<div class="col-xs-6 profile-button">
+								<p>the button</p>
+							</div>
+						</div>
+					</section>
 				</div>
-				
-				<div id="tab4" class="tab">
-					<p> tab 4 </p>
+				<div class="section-title" id="education-title"><h3>Education</h3></div>
+				<div class="row">
+					<section id="education" class="section section-education cd-timeline">
+						<div class="cd-timeline-block">
+							<div class="cd-timeline-img">
+								<!-- <img src="vertical-timeline/img/cd-icon-picture.svg" alt="Timeline"> -->
+							</div>
+							<div class="cd-timeline-content">
+								<center><h2>High School</h2>
+								<p>Walter E. Stebbins High School</p></center>
+								<span class="cd-date">August 2009 - August 2013</span>
+							</div>
+						</div>
+						<div class="cd-timeline-block">
+							<div class="cd-timeline-img">
+								<!-- <img src="vertical-timeline/img/cd-icon-picture.svg" alt="Timeline"> -->
+							</div>
+							<div class="cd-timeline-content">
+								<center><h2>College</h2>
+								<p>University of Cincinnati</p>
+								<!-- <p>Studying Computer Science</p> --></center>
+								<span class="cd-date">August 2013 - May 2018</span>
+						<!-- 		<li>College of Engineering and Applied Sciences</li>
+								<li>Computer Science</li> -->
+							</div>
+						</div>
+					</section>
+				</div>
+				<div class="section-title"><h3 id="skills-title">Technical Skills</h3></div>
+				<div class="row">
+					<section id="skills" class="section section-skills">
+						<div class="skills-section">
+							<div class="row">
+								<div class="col-xs-2 skills-text">
+									<span class="text-in-skills">C++</span>
+								</div>
+								<div class="col-xs-2 skills-text">
+									<span class="text-in-skills">Python</span>
+								</div>
+								<div class="col-xs-2 skills-text">
+									<span class="text-in-skills">Regex</span>
+								</div>
+								<div class="col-xs-2 skills-text">
+									<span class="text-in-skills">ECL</span>
+								</div>
+								<div class="col-xs-2 skills-text">
+									<span class="text-in-skills">Unity</span>
+								</div>
+								<div class="col-xs-2 skills-text">
+									<span class="text-in-skills">Java</span>
+								</div>
+								<div class="col-xs-2 skills-text">
+									<span class="text-in-skills">HTML</span>
+								</div>
+								<div class="col-xs-2 skills-text">
+									<span class="text-in-skills">CSS</span>
+								</div>
+								<div class="col-xs-2 skills-text">
+									<span class="text-in-skills">Solidworks</span>
+								</div>
+								<div class="col-xs-2 skills-text">
+									<span class="text-in-skills">Blender</span>
+								</div>
+								<div class="col-xs-2 skills-text">
+									<span class="text-in-skills">CAD</span>
+								</div>
+								<div class="col-xs-2 skills-text">
+									<span class="text-in-skills">LaTeX</span>
+								</div>
+								<div class="col-xs-4 skills-text">
+									<span class="text-in-skills">C#</span>
+								</div>
+								<div class="col-xs-4 skills-text">
+									<span class="text-in-skills">Linux</span>
+								</div>
+								<div class="col-xs-4 skills-text">
+									<span class="text-in-skills">Common Sense</span>
+								</div>
+							</div>
+						</div>
+					</section>
+				</div>
+				<div class="section-title"><h3 id="project-title">Personal Projects</h3></div>
+				<div class="row">
+					<section id="projects" class="section projects-section">
+						<div class="projects-section">
+							<div class="row">
+								<div class="col-xs-4 project-box" style="left:15px;">
+									<span class="title-in-projects"><strong><center>School Register</center></strong></span></br>
+									<span class="text-in-projects">This is a completed project that I made to save me and my friends time while signing up for classes.  The idea is to have you enter what classes you want to take and have the application sign
+										you up when your designated time is set. Letting you do whatever you want with that extra time you receive.</span>
+								</div>
+								<div class="col-xs-4 project-box" style="left:25px;">
+									<span class="title-in-projects"><strong><center>When Box Attacks!</center></strong></span></br>
+									<span class="text-in-projects">This is an ongoing Unity project that I had started working on after completing tutorials. The object of the game is don't get killed. I would like to implement AI that can track/move around objects as well as a shop to purchase new equipment and a high scores board.</span>
+								</div>
+								<div class="col-xs-4 project-box" style="left:40px;">
+									<span class="title-in-projects"><strong><center>Filler</center></strong></span></br>
+									<span class="text-in-projects">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam elementum ultricies mollis. Maecenas vel ante porta, viverra mauris eget, egestas orci. In placerat massa metus, eu convallis ligula semper quis. Maecenas luctus vehicula scelerisque. Mauris in quam et neque scelerisque laoreet id at erat. Mauris accumsan finibus lacus, sit amet vulputate lorem rutrum in. </span>
+								</div>
+							</div>
+						</div>
+					</section>
+				</div>
+				<div class="section-title"><h3 id="work-exp-title">Work Experience</h3></div>
+				<div class="row">
+					<section id="experience" class="section experience-section cd-timeline">
+						<div class="cd-timeline-block" >
+							<div class="cd-timeline-img">
+								<!-- <img src="vertical-timeline/img/cd-icon-picture.svg" alt="Timeline"> -->
+							</div>
+							<div class="cd-timeline-content">
+								<center><h1>Web developer/Data Science Co-op</h1>
+									<h2>Lexis Nexis Special Services Inc.</h2>
+								<p>Created a file that would find duplicates and near-duplicates using cosine similarity as well as edit distance. Documented my actions while setting up a legacy project on a laptop that would be used to hold and check data.</p></center>
+								<span class="cd-date" id="work-date">May 2016 - August 2016</span>
+							</div>
+						</div>
+						<div class="cd-timeline-block">
+							<div class="cd-timeline-img">
+								<!-- <img src="vertical-timeline/img/cd-icon-picture.svg" alt="Timeline"> -->
+							</div>
+							<div class="cd-timeline-content">
+								<center><h1>Web developer/Data Science Co-op</h1>
+									<h2>Lexis Nexis Special Services Inc.</h2>
+								<p>I analyzed data, manipulated data and presented findings alongside my fellow co-op. Utilized regular expressions to add spaces into document texts which were parsed incorrectly thereby increasing the texts likelyhood of being better parsed or read.  Created a web based application that both saved my manager time and allowed him to check/update information that is being scraped. </p></center>
+								<span class="cd-date" id="work-date">August 2015 - December 2015</span>
+							</div>
+						</div>
+						<div class="cd-timeline-block">
+							<div class="cd-timeline-img">
+								<!-- <img src="vertical-timeline/img/cd-icon-picture.svg" alt="Timeline"> -->
+							</div>
+							<div class="cd-timeline-content">
+								<center><h1>Research Assistant</h1>
+								<h2>University of Cincinnati</h2>
+								<!-- <p>Studying Computer Science</p> --></center>
+								<span class="cd-date" id="work-date">August 2013 - May 2018</span>
+						<!-- 		<li>College of Engineering and Applied Sciences</li>
+								<li>Computer Science</li> -->
+							</div>
+						</div>
+					</section>
 				</div>
 			</div>
 		</div>
+
+
+		<footer id="footer">
+			<a id="totop" href="#">To Top</div>
+				<!-- <img id="teemo" src="teemo.gif" title="cute" alt="satan"/> -->
+		</footer>
+	    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	    <script src="modernizr.js" type="text/javascript"></script>
+	    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" type="text/javascript"></script>
+	    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	    <script src="http://code.jquery.com/jquery.js"></script>
+	    <script src="site.js"></script>
+		<script src="timeline.js"></script>
+<!-- <script src="https://fb.me/react-0.14.6.js"></script>
+<script src="https://fb.me/react-dom-0.14.6.js"></script>
+<script src="http://fb.me/JSXTransformer-0.12.1.js"></script>
+<script type="text/jsx" src="FBtut.js"></script>
+
+// var Hello = React.createClass({
+//     render: function(){
+//         return (
+//             <div>
+//                 Bloaw me
+//             </div>
+//         );
+//     }
+// });
+
+// ReactDOM.render(<Hello />, document.getElementById('container'));
+
+// </script> -->
 	</body>
-</HTML>
+</html>
