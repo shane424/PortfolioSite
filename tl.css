@@ -205,10 +205,10 @@ header h1 {
 .cd-timeline-content {
   position: relative;
   margin-left: 60px;
-  background: #ffffff;
+  background: #e6e6e6;
   border-radius: 0.25em;
   padding: 1em;
-  box-shadow: 0 3px 0 #d7e4ed; /*//////////////////////////////////////////////////////////////////////////////////////////////////*/
+  box-shadow: 1px 1px 5px black; /*//////////////////////////////////////////////////////////////////////////////////////////////////*/
 }
 .cd-timeline-content::after {
   clear: both;
@@ -433,7 +433,7 @@ header h1 {
   }
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width:768px) and (max-width: 1199px) {
   .cd-timeline-content h2 {
     position: relative;
     font-size: 20px;

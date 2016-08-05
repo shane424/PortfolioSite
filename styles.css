@@ -129,7 +129,7 @@ img#teemo {
     /*background-color: black;*/
 }
 /*.navbar-default {
-	background-color: white;
+	background-color: #e6e6e6;
 }*/
 .navbar-default .navbar-nav > li {
 	position: relative;
@@ -175,7 +175,7 @@ img#teemo {
 /*span {
 	font-size: 50%;
 }*/
-h1{
+h1 {
 	font-family: "Open Sans", sans-serif;
 }
 
@@ -192,8 +192,28 @@ h3{
 h1.profile-title {
   font-family: "Open Sans", sans-serif;
 }
+.profile-button{
+	text-align: center;
+	box-shadow: 1px 1px 6px black;
+	background-color: #7D97BC;
+	position: relative;
+	bottom: 325px;
+	left: 30px;
+	height: 50px;
+	width: 35%;
+	border: solid;
+	border-width: 1px;
+}
+.profile-button p{
+	font-family: "Open Sans", sans-serif;
+	position: relative;
+	top: 8.5px;
+	color: black;
+	font-weight: 400px;
+	font-size: 20px;
+}
 #about {
-	background-color: white;
+	background-color: #e6e6e6;
 	width: 70%;
 	height: 100%;
 }
@@ -206,6 +226,15 @@ ul li{
 img#shanesmith{
 	width: 100%;
 	height: 60%;
+}
+.linkedin{
+	position: relative;
+	top: -150px;
+	left: 15%;
+	}
+.github{
+	top: -150px;
+	left: 30%;
 }
 .icon{
 	position: relative;
@@ -232,9 +261,14 @@ body {
 	/*background-color: black;*/
 }
 .profile-text{
-	top:-175px;
-	font-size: 20px;
+	font-family: "Open Sans", sans-serif;
+	top:-250px;
+	left: 43%;
+	font-size: 17px;
 	color: black;
+	display: block;
+	border: none;
+	width: 55%;
 }
 .profile-pic {
 	position: relative;
@@ -261,6 +295,7 @@ body {
 	width: 70%;
 	top: 200px;
 	left: 15%;
+	box-shadow: 0px 5px 5px black;
 }
 
 .section-education {
@@ -272,10 +307,12 @@ body {
 	position: relative;
 	top: 250px;
 	left:2.5%;
+	background-color: #e6e6e6;
+	box-shadow: 1px 1px 5px black;
 }
 
 .skills-text {
-	background-color: white;
+	background-color: #e6e6e6;
 	padding: 20px;
 }
 
@@ -313,7 +350,7 @@ body {
 	top: 320px;
 	height: 180px;
 
-	background-color: white;
+	background-color: #e6e6e6;
 	box-shadow: 0px 0px 20px black;
 }
 .title-in-projects{
@@ -419,7 +456,7 @@ img#shanesmith{
 
 /*    #about {
     	font-family: "Open Sans", sans-serif;
-	    background-color: white;
+	    background-color: #e6e6e6;
 	    left: 15%;
 		width: 70%;
 		height: 100%;
@@ -434,7 +471,21 @@ img#shanesmith{
 	.section-education {
 		top: -465px;
 	}
-
+	.linkedin{
+		position: relative;
+		top: -450px;
+		left:175%;
+	}
+    .github{
+		top: -450px;
+		left:200%;
+	}
+	.icon{
+		position: relative;
+		top: -350px;
+		height: 25%;
+		width: 25%;
+	}
 /*    .timeline-img {
   position: absolute;
   top: 0;
@@ -467,7 +518,31 @@ img#shanesmith{
 		padding-bottom: 25px;
 	}
 	.profile-text{
-		top:15px;
+		font-family: "Open Sans", sans-serif;
+		top:0px;
+		left: 17%;
+		font-size: 5px;
+		color: black;
+		display: block;
+		width: 75%;
+	}
+	.profile-button{
+		position: relative;
+		top: 10px;
+		height: 50px;
+		width: 100%;
+		left: 0px;
+		text-align: center;
+		box-shadow: 1px 1px 6px black;
+		background-color: #7D97BC;
+	}
+	.profile-button p{
+		font-family: "fantasy", serif;
+		position: relative;
+		top: 8.5px;
+		color: black;
+		font-weight: 400px;
+		font-size: 20px;
 	}
  	p {font-size:15px;}
     h1 {font-size:26px}
@@ -480,7 +555,7 @@ img#shanesmith{
 	}
 
 	.skills-text {
-		background-color: white;
+		background-color: #e6e6e6;
 		padding: 20px;
 	}
 
@@ -518,7 +593,7 @@ img#shanesmith{
 		top: -320px;
 		height: 270px;
 
-		background-color: white;
+		background-color: #e6e6e6;
 		box-shadow: 0px 0px 20px black;
 	}
 	.title-in-projects{
@@ -534,7 +609,7 @@ img#shanesmith{
 		font-family: "Droid Serif", serif;
 		position: relative;
 		color: black;
-		font-size: 13px;
+		font-size: 12px;
 		display: block;
 		/*height: 100px;*/
 	}
@@ -597,24 +672,50 @@ img#shanesmith{
 		font-family: "Open Sans", sans-serif;
 		padding-bottom: 25px;
 	}
-	.profile-text{
-		top:15px;
-	}
  	p {font-size:15px;}
     h1 {font-size:26px}
     .linkedin{
 		position: relative;
 		top: -150px;
-		height: 50px;
-		width: 50px;
-		left: 5px;
 	}
     .github{
-
 		top: -150px;
-		height: 50px;
-		width: 50px;
-		left: 25px;
+	}
+	.icon{
+		position: relative;
+		top: -150px;
+		height: 15%;
+		width: 15%;
+	}
+	.profile-text{
+		font-family: "Open Sans", sans-serif;
+		top:-225px;
+		left: 43%;
+		font-size: 10px;
+		color: black;
+		display: block;
+		width: 55%;
+	}
+	.profile-text p{
+		font-size: 13px;
+	}
+	.profile-button{
+		text-align: center;
+		box-shadow: 1px 1px 6px black;
+		background-color: #7D97BC;
+		position: relative;
+		bottom: 340px;
+		height: 100px;
+		width: 35%;
+		left: 20px;
+	}
+	.profile-button p{
+		font-family: "fantasy", serif;
+		position: relative;
+		top: 8.5px;
+		color: black;
+		font-weight: 400px;
+		font-size: 20px;
 	}
 	.section-about {
 		position: absolute;
@@ -654,7 +755,7 @@ img#shanesmith{
 	}	
 
 	.skills-text {
-		background-color: white;
+		background-color: #e6e6e6;
 		padding: 20px;
 	}
 
@@ -696,7 +797,7 @@ img#shanesmith{
 		display: block;
 		top: 320px;
 		height: 270px;
-		background-color: white;
+		background-color: #e6e6e6;
 		box-shadow: 0px 0px 20px black;
 	}
 	.title-in-projects{
@@ -738,16 +839,42 @@ img#shanesmith{
     .linkedin{
 		position: relative;
 		top: -150px;
-		height: 50px;
-		width: 50px;
-		left: 5px;
 	}
     .github{
-
 		top: -150px;
-		height: 50px;
-		width: 50px;
+	}
+	.icon{
+		position: relative;
+		top: -150px;
+		height: 15%;
+		width: 15%;
+	}
+	.profile-text{
+		font-family: "Open Sans", sans-serif;
+		top:-250px;
+		left: 43%;
+		font-size: 15px;
+		color: black;
+		display: block;
+		width: 55%;
+	}
+	.profile-button{
+		text-align: center;
+		box-shadow: 1px 1px 6px black;
+		background-color: #7D97BC;
+		position: relative;
+		bottom: 325px;
+		height: 80px;
+		width: 35%;
 		left: 25px;
+	}
+	.profile-button p{
+		font-family: "fantasy", serif;
+		position: relative;
+		top: 8.5px;
+		color: black;
+		font-weight: 400px;
+		font-size: 20px;
 	}
 	.section-about {
 		position: absolute;
@@ -788,7 +915,7 @@ img#shanesmith{
 	}	
 
 	.skills-text {
-		background-color: white;
+		background-color: #e6e6e6;
 		padding: 20px;
 	}
 
@@ -831,7 +958,7 @@ img#shanesmith{
 		display: block;
 		top: 320px;
 		height: 200px;
-		background-color: white;
+		background-color: #e6e6e6;
 		box-shadow: 0px 0px 20px black;
 	}
 	.title-in-projects{
@@ -862,7 +989,21 @@ img#shanesmith{
     /*span {font-size: 22px;}*/
 }
 @media(min-width:1200px){
-
+    /*.linkedin{
+		position: relative;
+		top: -150px;
+		left: 50px;
+	}
+    .github{
+		top: -150px;
+		left: 130px;
+	}*/
+	.icon{
+		position: relative;
+		top: -150px;
+		height: 15%;
+		width: 15%;
+	}
 	.title{
 		font-size: 15px;
 		font-family: "Open Sans", sans-serif;
@@ -878,12 +1019,6 @@ img#shanesmith{
 	}
     h1 {font-size:34px}
     /*span {font-size: 26px;}*/
-    .icon{
-		position: relative;
-		top: -150px;
-		height: 10%;
-		width: 10%;
-	}
 	#education-title{
 		position: relative;
 		top: 180px;
