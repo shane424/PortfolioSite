@@ -197,7 +197,7 @@ h1.profile-title {
 	box-shadow: 1px 1px 6px black;
 	background-color: #7D97BC;
 	position: relative;
-	bottom: 325px;
+	bottom: 225px;
 	left: 30px;
 	height: 50px;
 	width: 35%;
@@ -300,15 +300,20 @@ body {
 
 .section-education {
 	position: relative;
-	top: 200px;
+	top: 500px;
 }
 
 .section-skills {
 	position: relative;
-	top: 250px;
+	top: 550px;
 	left:2.5%;
 	background-color: #e6e6e6;
 	box-shadow: 1px 1px 5px black;
+}
+
+.experience-section{
+	position: relative;
+	bottom: 100px;
 }
 
 .skills-text {
@@ -332,12 +337,12 @@ body {
 #project-title{
 	position: relative;
 	left:31.5%;
-	top:280px;
+	top:580px;
 }
 #skills-title{
 	position:relative;
 	left:35%;
-	top:210px;
+	top:510px;
 }
 #work-exp-title{
 	position: relative;
@@ -347,7 +352,7 @@ body {
 .project-box{
 	position: relative;
 	display: block;
-	top: 320px;
+	top: 620px;
 	height: 180px;
 
 	background-color: #e6e6e6;
@@ -372,7 +377,7 @@ body {
 }
 #experience{
 	position: relative;
-	top:350px;
+	top:650px;
 }
 .text-in-experience{
 	font-family: "Droid Serif", serif;
@@ -437,7 +442,7 @@ img#shanesmith{
     h1 {font-size:32px}
    /* span {font-size: 24px;}
 }*/
-@media(max-width:767px){
+@media(max-width:525px){
 	.navbar-default .navbar-nav > li > a {
 	    left: 100px;
 	}
@@ -465,7 +470,7 @@ img#shanesmith{
 		position: relative;
 		height: 500%;
 		width: 200%;
-		left: 0;
+		left: 5.5%;
 		top: 20px;
 	}
 	.section-education {
@@ -474,17 +479,211 @@ img#shanesmith{
 	.linkedin{
 		position: relative;
 		top: -450px;
-		left:175%;
+		left:225%;
 	}
     .github{
 		top: -450px;
-		left:200%;
+		left:228%;
 	}
 	.icon{
 		position: relative;
 		top: -350px;
-		height: 25%;
-		width: 25%;
+		height: 35px;
+		width: 35px;
+	}
+/*    .timeline-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  box-shadow: 0 0 0 4px black, inset 0 2px 0 rgba(0, 0, 0, 0.08), 0 3px 0 4px rgba(0, 0, 0, 0.05);
+}*/
+	.title{
+		font-size: 15px;
+		font-family: "Open Sans", sans-serif;
+		display: block;
+		padding-bottom: 0px;
+		padding-top: 8px;
+	}
+	.title-content{
+		font-size: 13px;
+		font-family: "Open Sans", sans-serif;
+		display: block;
+		color: grey;
+	}
+	.profile-info {
+		font-family: "Open Sans", sans-serif;
+		top: 25px;
+	}
+	.profile-list{
+		top: 25px;
+		font-family: "Open Sans", sans-serif;
+		padding-bottom: 25px;
+	}
+	.profile-text{
+		font-family: "Open Sans", sans-serif;
+		top:0px;
+		left: 17%;
+		font-size: 5px;
+		color: black;
+		display: block;
+		width: 75%;
+	}
+	.profile-button{
+		position: relative;
+		top: 10px;
+		height: 50px;
+		width: 100%;
+		left: 0px;
+		text-align: center;
+		box-shadow: 1px 1px 6px black;
+		background-color: #7D97BC;
+	}
+	.profile-button p{
+		font-family: "fantasy", serif;
+		position: relative;
+		top: 8.5px;
+		color: black;
+		font-weight: 400px;
+		font-size: 20px;
+	}
+ 	p {font-size:15px;}
+    h1 {font-size:26px}
+    /*span {font-size: 20px;}
+*/
+	.section-skills {
+		position: relative;
+		top: -360px;
+		left:5.5%;
+	}
+
+	.skills-text {
+		background-color: #e6e6e6;
+		padding: 20px;
+	}
+
+	.text-in-skills{
+		font-family: "Droid Serif", serif;
+		display: block;
+		padding: 5px;
+		font-size: 15px;
+		position: relative;
+		background-color: #3BAFFA;
+		color: white;
+	/*	width: 33px;
+		height: 10px;*/
+		text-align: center;
+		box-shadow: 5px 5px 20px #888888;
+	}
+	#education-title{
+		position: relative;
+		top: -480px;
+		left: -10%;
+	}
+	#project-title{
+		position: relative;
+		left:0%;
+		top:-345px;
+	}
+	#skills-title{
+		position:relative;
+		left:10%;
+		top:-420px;
+	}
+	.project-box{
+		position: relative;
+		display: block;
+		top: -320px;
+		height: 380px;
+		background-color: #e6e6e6;
+		box-shadow: 0px 0px 20px black;
+	}
+	.title-in-projects{
+		font-family: "Open Sans", sans-serif;
+		position: relative;
+		font-size: 15px;
+		top: 5px;
+		color: black;
+		display: block;
+		/*background-color: black;*/
+	}
+	.text-in-projects{
+		font-family: "Droid Serif", serif;
+		position: relative;
+		color: black;
+		font-size: 10px;
+		display: block;
+		/*height: 100px;*/
+	}
+	#experience{
+		position: relative;
+		top:-225px;
+		left:3%;
+	}
+	.text-in-experience{
+		font-family: "Droid Serif", serif;
+		position: relative;
+		color: black;
+		font-size: 13px;
+		display: block;
+		/*height: 100px;*/
+	}
+	#work-exp-title{
+		position: relative;
+		left: 0%;
+		top:-250px;
+	}
+}
+@media(min-width:526px) and (max-width:767px){
+	.navbar-default .navbar-nav > li > a {
+	    left: 100px;
+	}
+	body{
+	    /*padding-top: 0px;*/
+	}
+
+	.section-about {
+		position: relative;
+		height: 150%;
+		width: 70%;
+		top: -500px;
+		left: 15%;
+		padding-bottom: 25px;
+	}
+
+/*    #about {
+    	font-family: "Open Sans", sans-serif;
+	    background-color: #e6e6e6;
+	    left: 15%;
+		width: 70%;
+		height: 100%;
+    }*/
+	.profile-pic {
+		position: relative;
+		height: 500%;
+		width: 200%;
+		left: 4%;
+		top: 20px;
+	}
+	.section-education {
+		top: -465px;
+	}
+	.linkedin{
+		position: relative;
+		top: -450px;
+		left:180%;
+	}
+    .github{
+		top: -450px;
+		left:190%;
+	}
+	.icon{
+		position: relative;
+		top: -350px;
+		height: 50px;
+		width: 50px;
 	}
 /*    .timeline-img {
   position: absolute;
@@ -591,7 +790,7 @@ img#shanesmith{
 		position: relative;
 		display: block;
 		top: -320px;
-		height: 270px;
+		height: 380px;
 
 		background-color: #e6e6e6;
 		box-shadow: 0px 0px 20px black;
@@ -616,6 +815,7 @@ img#shanesmith{
 	#experience{
 		position: relative;
 		top:-225px;
+		left:3%;
 	}
 	.text-in-experience{
 		font-family: "Droid Serif", serif;
@@ -751,7 +951,7 @@ img#shanesmith{
     h1 {font-size:28px}
 	.section-skills {
 	position: relative;
-	top: 250px;
+	top: 550px;
 	}	
 
 	.skills-text {
@@ -774,28 +974,28 @@ img#shanesmith{
 	}
 	#education-title{
 		position: relative;
-		top: 180px;
+		top: 480px;
 		left: -2%;
 	}
 	#project-title{
 		position: relative;
 		left:23%;
-		top:280px;
+		top:580px;
 	}
 	#skills-title{
 		position:relative;
 		left: 25%;
-		top:210px;
+		top:510px;
 	}
 	#work-exp-title{
 		position: relative;
 		left: 25%;
-		top:350px;
+		top:650px;
 	}
 	.project-box{
 		position: relative;
 		display: block;
-		top: 320px;
+		top: 620px;
 		height: 270px;
 		background-color: #e6e6e6;
 		box-shadow: 0px 0px 20px black;
@@ -910,7 +1110,7 @@ img#shanesmith{
     h1 {font-size:28px}
 	.section-skills {
 		position: relative;
-		top: 250px;
+		top: 550px;
 		left: 3%;
 	}	
 
@@ -934,29 +1134,29 @@ img#shanesmith{
 	}
 	#education-title{
 		position: relative;
-		top: 180px;
+		top: 480px;
 		/*left: 40%;*/
 
 	}
 	#project-title{
 		position: relative;
 		left:30%;
-		top:280px;
+		top:580px;
 	}
 	#skills-title{
 		position:relative;
 		/*left:310px;*/
-		top:210px;
+		top:510px;
 	}
 	#work-exp-title{
 		position: relative;
 		left: 28%;
-		top:350px;
+		top:650px;
 	}
 	.project-box{
 		position: relative;
 		display: block;
-		top: 320px;
+		top: 620px;
 		height: 200px;
 		background-color: #e6e6e6;
 		box-shadow: 0px 0px 20px black;
@@ -1021,13 +1221,13 @@ img#shanesmith{
     /*span {font-size: 26px;}*/
 	#education-title{
 		position: relative;
-		top: 180px;
+		top: 480px;
 		/*left: 445px;*/
 	}
 	#work-exp-title{
 		position: relative;
 		/*left: 31%;*/
-		top:350px;
+		top:650px;
 	}
 
 
