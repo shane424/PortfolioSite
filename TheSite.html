@@ -10,6 +10,7 @@
 	  <!-- <link rel="stylesheet" href="https://s3-us-west-2.amazonaws.com/s.cdpn.io/148866/reset.css"> -->
 	  <link href="styles.css" rel="stylesheet"/>
 	  <link href="tl.css" rel="stylesheet"/>
+	  <link href="contactform.css" rel="stylesheet"/>
 	</head>
 	<body>
 		 <nav class='navbar navbar-default navbar-fixed-top'>
@@ -26,11 +27,11 @@
 				<div class='collapse navbar-collapse'  id='navbar-data'>
 					<ul class='nav navbar-nav'>
 						<li><a href='#about'>About</a></li>
-						<li><a href='#education'>Education</a></li>
-						<li><a href='#skills'>Skills</a></li>
-						<li><a href='#projects'>Projects</a></li>
-						<li><a href='#projects'>Experience</a></li>
-						<li><a href='#contact'>Contact</a></li>
+						<li><a href='#education-title'>Education</a></li>
+						<li><a href='#skills-title'>Skills</a></li>
+						<li><a href='#project-title'>Projects</a></li>
+						<li><a href='#work-exp-title'>Experience</a></li>
+						<li><a href='#contact-title'>Contact</a></li>
 					</ul>
 				</div>
 			</div>
@@ -196,7 +197,7 @@
 				</div>
 				<div class="section-title"><h3 id="project-title">Personal Projects</h3></div>
 				<div class="row">
-					<section id="projects" class="section projects-section">
+					<section id="projects" class="section section-projects">
 						<div class="projects-section">
 							<div class="row">
 								<div class="col-xs-4 project-box" style="left:20px;">
@@ -206,11 +207,11 @@
 								</div>
 								<div class="col-xs-4 project-box" style="left:30px;">
 									<span class="title-in-projects"><strong><center>When Box Attacks!</center></strong></span></br>
-									<span class="text-in-projects">This is an ongoing Unity project that I had started working on after completing tutorials. The object of the game is don't get killed. I would like to implement AI that can track/move around objects as well as a shop to purchase new equipment and a high scores board.</span>
+									<span class="text-in-projects">This is an ongoing Unity project that I had started working on after completing tutorials. The object of the game is to survive. I would like to implement AI that can track/move around objects, a shop to purchase new equipment and a high scores board.</span>
 								</div>
 								<div class="col-xs-4 project-box" style="left:40px;">
-									<span class="title-in-projects"><strong><center>Filler</center></strong></span></br>
-									<span class="text-in-projects">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam elementum ultricies mollis. Maecenas vel ante porta, viverra mauris eget, egestas orci. In placerat massa metus, eu convallis ligula semper quis. Maecenas luctus vehicula scelerisque. Mauris in quam et neque scelerisque laoreet id at erat. Mauris accumsan finibus lacus, sit amet vulputate lorem rutrum in. </span>
+									<span class="title-in-projects"><strong><center>UCLoL Website</center></strong></span></br>
+									<span class="text-in-projects">Designed and created a rough draft of a website for use of the University of Cincinnati League of Legends collegiate club. Next step is to use React.js and receive feedback on potential paths forward.</span>
 								</div>
 							</div>
 						</div>
@@ -256,14 +257,30 @@
 						</div>
 					</section>
 				</div>
+				<div class="section-title"><h3 id="contact-title">Contact me!</h3></div>
+				<div class="row">
+					<section id="contact" class="section section-contact">
+						<form class="takeform.php">
+							<div class="half left cf">
+							  <input type="text" id="input-name" placeholder="Name">
+							  <input type="email" id="input-email" placeholder="Email address">
+							  <input type="text" id="input-subject" placeholder="Subject">
+							</div>
+							<div class="half right cf">
+							  <textarea name="message" type="text" id="input-message" placeholder="Message"></textarea>
+							</div>  
+							<input type="submit" value="Submit" id="input-submit">
+						</form>
+					</section>
+				</div>
 			</div>
 		</div>
 
 
-		<footer id="footer">
+		<!-- <footer id="footer">
 			<a id="totop" href="#">To Top</div>
-				<!-- <img id="teemo" src="teemo.gif" title="cute" alt="satan"/> -->
-		</footer>
+				
+		</footer> -->
 	    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 	    <script src="modernizr.js" type="text/javascript"></script>
 	    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" type="text/javascript"></script>

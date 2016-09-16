@@ -311,6 +311,11 @@ body {
 	box-shadow: 1px 1px 5px black;
 }
 
+.section-projects{
+	position:relative;
+	
+}
+
 .experience-section{
 	position: relative;
 	bottom: 100px;
@@ -387,6 +392,12 @@ body {
 	display: block;
 	/*height: 100px;*/
 }
+#contact-title{
+		position: relative;
+		top: 725px;
+		left: 400px;
+}
+
 /*@media only screen and (min-width: 500px) { 
 	p {
 		font-size: 10px;
@@ -830,6 +841,7 @@ img#shanesmith{
 		left: 25%;
 		top:-250px;
 	}
+	
 }
 
 @media(min-width:768px) and (max-width: 991px){
