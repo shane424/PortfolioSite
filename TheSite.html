@@ -11,6 +11,7 @@
 	  <link href="styles.css" rel="stylesheet"/>
 	  <link href="tl.css" rel="stylesheet"/>
 	  <link href="contactform.css" rel="stylesheet"/>
+	  <script src="validation.js"></script>
 	</head>
 	<body>
 		 <nav class='navbar navbar-default navbar-fixed-top'>
@@ -22,7 +23,7 @@
 						<span class='icon-bar'></span>
 						<span class='icon-bar'></span>
 					</button>
-					<a class='navbar-brand' href='#'>Gamer Guy</a>
+					<a class='navbar-brand' href='#'>Boy Wonder</a>
 				</div>
 				<div class='collapse navbar-collapse'  id='navbar-data'>
 					<ul class='nav navbar-nav'>
@@ -32,6 +33,7 @@
 						<li><a href='#project-title'>Projects</a></li>
 						<li><a href='#work-exp-title'>Experience</a></li>
 						<li><a href='#contact-title'>Contact</a></li>
+						<li><a href='ShaneSmithResume.pdf'>Resume</a></li>
 					</ul>
 				</div>
 			</div>
@@ -80,7 +82,7 @@
 													</li>
 													<li class="clearfix">
 														<strong class="title">Email</strong>
-														<span class="title-content">Shane.L.Smith24@gmail.com</span>
+														<a class="title-content" href="mailto:shanesmith@shanelsmith.com">shanesmith@shanelsmith.com</a>
 													</li>
 												</ul>
 											</div>
@@ -107,9 +109,9 @@
 									<p>Fascinated by what I don't understand, I venture into new territories to learn anything new. I am a very curious person whose curiosity creates learning opportunities on a daily basis. Whether it be learning about history, a new technology, or even just something new about a friend, I patiently wait for these opportunies to transpire. I am an avid gamer and I have a technological interest in AI and game development driven only by my underlying motives of making others happy.</p>
 								</div>
 							</div>
-							<div class="col-xs-6 profile-button">
-								<p><strong>DOWNLOAD RESUME</strong></p>
-							</div>
+							 <div class="col-xs-6 profile-button">
+								<p><strong><a href='ShaneSmithResume.pdf' style='text-decoration: none;' >Download Resume</a></p>
+							</div> 
 						</div>
 					</section>
 				</div>
@@ -201,16 +203,16 @@
 						<div class="projects-section">
 							<div class="row">
 								<div class="col-xs-4 project-box" style="left:20px;">
-									<span class="title-in-projects"><strong><center>School Register</center></strong></span></br>
+									<span class="title-in-projects"><strong><center><a href="https://github.com/shane424/Class-Submitter">School Register</a></center></strong></span></br>
 									<span class="text-in-projects">This is a completed project that I made to save me and my friends time while signing up for classes.  The idea is to have you enter what classes you want to take and have the application sign
 										you up when your designated time is set. Letting you do whatever you want with that extra time you receive.</span>
 								</div>
 								<div class="col-xs-4 project-box" style="left:30px;">
-									<span class="title-in-projects"><strong><center>When Box Attacks!</center></strong></span></br>
+									<span class="title-in-projects"><strong><center><a href="https://github.com/shane424/when-boxes-attack">When Box Attacks!</a></center></strong></span></br>
 									<span class="text-in-projects">This is an ongoing Unity project that I had started working on after completing tutorials. The object of the game is to survive. I would like to implement AI that can track/move around objects, a shop to purchase new equipment and a high scores board.</span>
 								</div>
 								<div class="col-xs-4 project-box" style="left:40px;">
-									<span class="title-in-projects"><strong><center>UCLoL Website</center></strong></span></br>
+									<span class="title-in-projects"><strong><center><a href="https://github.com/shane424/uclol-site">UCLoL Website</a></center></strong></span></br>
 									<span class="text-in-projects">Designed and created a rough draft of a website for use of the University of Cincinnati League of Legends collegiate club. Next step is to use React.js and receive feedback on potential paths forward.</span>
 								</div>
 							</div>
@@ -238,7 +240,7 @@
 							<div class="cd-timeline-content">
 								<center><h1>Web developer/Data Science Co-op</h1>
 									<h2>Lexis Nexis Special Services Inc.</h2>
-								<p>I analyzed data, manipulated data and presented findings alongside my fellow co-op. Utilized regular expressions to add spaces into document texts which were parsed incorrectly thereby increasing the texts likelyhood of being better parsed or read.  Created a web based application that both saved my manager time and allowed him to check/update information that is being scraped. </p></center>
+								<p>Analyzed data, manipulated data and presented findings alongside my fellow co-op. Utilized regular expressions to add spaces into document texts which were parsed incorrectly thereby increasing the texts likelyhood of being better parsed or read.  Created a web based application that both saved my manager time and allowed him to check/update information that is being scraped. </p></center>
 								<span class="cd-date" id="work-date">August 2015 - December 2015</span>
 							</div>
 						</div>
@@ -249,7 +251,7 @@
 							<div class="cd-timeline-content">
 								<center><h1>Research Assistant</h1>
 								<h2>University of Cincinnati</h2>
-								<!-- <p>Studying Computer Science</p> --></center>
+								<p>Utilized Google Refine to analyze data to determine which clustering method was most efficient. Documented the process and possible paths for future work for use by incoming employees. By using the Google Refine's Python API, wrote a program to create a Google Refine process on a server given by Dr. Rozier.</p></center>
 								<span class="cd-date" id="work-date">August 2013 - May 2018</span>
 						<!-- 		<li>College of Engineering and Applied Sciences</li>
 								<li>Computer Science</li> -->
@@ -257,14 +259,14 @@
 						</div>
 					</section>
 				</div>
-				<div class="section-title"><h3 id="contact-title">Contact me!</h3></div>
+				<!-- <div class="section-title"><h3 id="contact-title">Contact me!</h3></div>
 				<div class="row">
 					<section id="contact" class="section section-contact">
-						<form class="takeform.php">
+						<form action="takeform.php" method="POST"  ">
 							<div class="half left cf">
-							  <input type="text" id="input-name" placeholder="Name">
-							  <input type="email" id="input-email" placeholder="Email address">
-							  <input type="text" id="input-subject" placeholder="Subject">
+							  <input name="text" id="input-name" placeholder="Name">
+							  <input name="email" id="input-email" placeholder="Email address">
+							  <input name="text" id="input-subject" placeholder="Subject">
 							</div>
 							<div class="half right cf">
 							  <textarea name="message" type="text" id="input-message" placeholder="Message"></textarea>
@@ -272,7 +274,7 @@
 							<input type="submit" value="Submit" id="input-submit">
 						</form>
 					</section>
-				</div>
+				</div> -->
 			</div>
 		</div>
 

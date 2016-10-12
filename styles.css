@@ -92,6 +92,7 @@ img#teemo {
 
 .navbar .navbar-brand{
 	position: relative;
+	left: 120px;
     color: grey;
     top: 5px;
     border: none;
@@ -102,6 +103,8 @@ img#teemo {
 }
 
 .navbar .container {
+	position: relative;
+	left: -125px;
     padding-top: 25px;
     padding-bottom: 25px;
     -webkit-transition: padding-top .5s ease, padding-bottom .5s ease;
@@ -198,7 +201,7 @@ h1.profile-title {
 	background-color: #7D97BC;
 	position: relative;
 	bottom: 225px;
-	left: 30px;
+	left: 50px;
 	height: 50px;
 	width: 35%;
 	border: solid;
@@ -269,6 +272,14 @@ body {
 	display: block;
 	border: none;
 	width: 55%;
+}
+.profile-list{
+	position:relative;
+	left:50px;
+}
+.profile-name{
+	position:relative;
+	left:40%;
 }
 .profile-pic {
 	position: relative;
@@ -845,7 +856,7 @@ img#shanesmith{
 }
 
 @media(min-width:768px) and (max-width: 991px){
-
+	
 	.navbar-default .navbar-nav > li {
 		position: relative;
 		left: 50px;
@@ -859,6 +870,8 @@ img#shanesmith{
 		padding-right: 0px;
 	}
 	.navbar .container {
+		position: relative;
+		left: -00px;
 	    padding-top: 0px;
 	    padding-bottom: 0px;
 	}
